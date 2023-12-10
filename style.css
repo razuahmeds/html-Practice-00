@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e9ffc2;
+}
+
+header > nav {
+  background: #aac8a7;
+  padding: 15px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-right: 5px;
+  padding: 10px 7px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.nav-items > a:hover {
+  background-color: #000;
+  color: #aac8a7;
+}
+
+nav > .logo {
+  height: 35px;
+}
+
+/* header banner style */
+
+.header-banner > .banner-img {
+  width: 100vw;
+}
+
+/* common section style */
+
+section {
+  background-color: #e9ffc2;
+  padding: 20px;
+  margin: 0 25px;
+}
+
+section > .title {
+  text-align: center;
+  font-size: 20px;
+  color: #010146;
+}
+
+section > p {
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.service-item {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #aac8a7;
+  padding: 15px;
+  margin: 10px;
+}
+
+.service-item > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-item > h6 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.service-item > p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding: 7px 0;
+}
+
+/* developers section style */
+.developer-profile {
+  text-align: center;
+  box-shadow: 1px 2px 10px #cacaca;
+  width: 22%;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+.developer-profile:hover {
+  box-shadow: 1px 2px 10px #7c7c7c;
+}
+
+.developer-profile > img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.developer-profile > h4 {
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+.developer-profile > .name {
+  color: tomato;
+  font-weight: bold;
+}
+
+.developer-profile > .depertment {
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.developer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
